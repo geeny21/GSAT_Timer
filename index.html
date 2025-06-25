@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 GSAT 타이머</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">삼성 GSAT</h1>
+        <div class="test-info">
+            <h2 id="stage-title">수리 영역</h2>
+            <div class="timer" id="timer">00:10</div>
+        </div>
+        <div class="controls">
+            <button id="startBtn" class="btn">시작</button>
+            <button id="pauseBtn" class="btn">일시 정지</button>
+            <button id="stopBtn" class="btn">중지</button>
+            <button id="resetBtn" class="btn">초기화</button>
+            <button id="prevBtn" class="btn">이전</button>
+            <button id="nextBtn" class="btn">다음</button>
+        </div>
+        <div id="completion-message" class="completion-message hidden">
+            시험 종료
+        </div>
+    </div>
+    <audio id="timeUpSound" src="time_up.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
