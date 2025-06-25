@@ -1,7 +1,7 @@
 const stages = [
-    { title: "수리 영역", time: 10 }, // 10초
-    { title: "추리 영역", time: 10 }, // 10초
-    { title: "지각 영역", time: 10 }  // 10초
+    { title: "수리 영역", time: 900 }, // 15분
+    { title: "추리 영역", time: 1200 }, // 20분
+    { title: "지각 영역", time: 600 }  // 10분
 ];
 
 let currentStage = 0;
