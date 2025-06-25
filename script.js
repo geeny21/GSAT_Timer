@@ -62,8 +62,10 @@ function startTimer() {
                     startTimer(); // Start next stage automatically
                 }, 2000);
             } else {
+                // Last stage: show completion message and stop timer
                 completionMessage.classList.remove('hidden');
                 document.querySelector('.test-info').classList.add('hidden');
+                // No further action, timer is stopped
             }
         }
     }, 1000);
